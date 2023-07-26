@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.join{
+    height: 200px;
+    background: url('/images/join.jpg');
+    background-size: cover;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.join p{
+    font-size: 18px;
+    font-weight: 700;
+    color:black;
+}
+
+.logo{
+    width: 8%;
+}
+
+.testimonial-text{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline; 
+    color: rgb(225, 145, 18);
+}
+
+
+.img{
+    cursor: pointer;
+}
+
+.img:hover{
+    transform: scale(1.2);
+    transition:.6s ease-in-out;
+}
+
+
+.box{
+border-radius: 7px solid red;  
+}
+
