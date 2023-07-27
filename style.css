@@ -42,7 +42,16 @@
 }
 
 
-.box{
-border-radius: 7px solid red;  
+
+#header{
+    background:#1132b6 ;
 }
 
+.navlink{
+    margin-right: 20px;
+}
+
+.navlink:hover{
+    border-radius: 7%;
+    text-decoration:underline rgb(151, 237, 12);
+}
